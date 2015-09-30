@@ -5,16 +5,17 @@
 
 ## Example
 
-    Time ->   Age = A
-    [-] : Time spans.
-    [+] : Position at give timespan.
+Age(s) = T(a..z)
+*-* : Time spans.
+*+* : Position at give timespan.
+*|* : Interpolated point in time slice
 
-                   T(a)                 T(b)
+       Time->      T(a)                 T(b)
                     |                    |
     P1 +----+-----+-|-------+----+-------|-------+
     P2    +------+--|-----+------------+
     P3       +------|------+
     P4                +------+--++-------|--+
 
-Age *T1* generates time-slice [P1,P2,P3] (a)
-Age *T2* generates time-slice [P1,P4] (b)
+Age *T1* generates time-slice *\[P1,P2,P3\](a)*
+Age *T2* generates time-slice *\[P1,P4\](b)*

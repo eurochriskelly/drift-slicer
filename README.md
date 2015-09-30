@@ -2,6 +2,7 @@
 
   Interpolate positions of points as they drift through space and time
 
+
 ## Example
 
     Time ->   Age = A
@@ -15,7 +16,5 @@
     P3       +------|------+
     P4                +------+--++-------|--+
 
-Age *T1* generates time-slice [P1,P2,P3](a)
-Age *T2* generates time-slice [P1,P4](b)
-
-
+Age *T1* generates time-slice [P1,P2,P3] (a)
+Age *T2* generates time-slice [P1,P4] (b)

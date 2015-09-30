@@ -5,10 +5,10 @@
 
 ## Example
 
-Age(s) = T(a..z)
-*-* : Time spans.
-*+* : Position at give timespan.
-*|* : Interpolated point in time slice
+Age(s) = T(a..z)  
+```-``` : Time spans.  
+```+``` : Position at give timespan.  
+```|``` : Interpolated point in time slice  
 
        Time->      T(a)                 T(b)
                     |                    |

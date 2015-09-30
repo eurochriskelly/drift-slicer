@@ -1,0 +1,31 @@
+{
+  "name": "drift-slicer",
+  "version": "0.0.1",
+  "description": "Interpolate the positions of spherical surface points as they drift through space and time",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha lib/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://eurochriskelly@github.com/eurochriskelly/drift-slicer.git"
+  },
+  "keywords": [
+    "drift",
+    "slice",
+    "time"
+  ],
+  "author": "Chris Kelly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eurochriskelly/drift-slicer/issues"
+  },
+  "homepage": "https://github.com/eurochriskelly/drift-slicer#readme",
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "q": "^1.4.1"
+  }
+}

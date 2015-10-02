@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/eurochriskelly/drift-slicer#readme",
   "devDependencies": {
-    "mocha": "^2.3.3"
+    "mocha": "^2.3.3",
+    "should": "^7.1.0"
   },
   "dependencies": {
     "lodash": "^3.10.1",

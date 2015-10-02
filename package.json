@@ -1,6 +1,6 @@
 {
   "name": "drift-slicer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Interpolate the positions of spherical surface points as they drift through space and time",
   "main": "lib/index.js",
   "scripts": {

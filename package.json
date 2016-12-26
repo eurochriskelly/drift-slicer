@@ -4,7 +4,7 @@
   "description": "Interpolate the positions of spherical surface points as they drift through space and time",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha lib/test.js"
+    "test": "mocha lib/index.spec.js"
   },
   "repository": {
     "type": "git",
